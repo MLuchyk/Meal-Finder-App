@@ -90,6 +90,8 @@ function getMealById(mealID){
 function randomMeal() {
     //Clear alert
     clearAlert();
+    //Clear input field
+    searchInput.value = '';
 
     //Clear meals and heading
     mealsEl.innerHTML = '';
